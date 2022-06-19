@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* GWEJH  */
+.tstft {
+  transition: 0.15s;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 480px) {
+  /* Navbar */
+  .navbar {
+    position: relative;
+    z-index: 5;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .lgo {
+    color: red;
+  }
+
+  /* Jumbotron */
+  .jumbotron-img {
+    background-image: url(galleri/bekroon.jpg);
+    background-size: cover;
+    height: 876px;
+    position: relative;
+  }
+
+  .jumbotron .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .jumbotron-img::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    margin-left: -17px;
+    bottom: 0;
+  }
+
+  /* travel time dan bwhnya */
+  .judulco {
+    font-weight: bolder;
+    font-size: 75px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .bcot {
+    color: azure !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .bcote {
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  /* ingfo panel */
+  .ingfo-panel {
+    margin-top: -265px;
+    z-index: 1;
+  }
+
+  .wrna {
+    color: white;
+    font-size: 13px;
+  }
+
+  .lin {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .box {
+    width: 350px;
+  }
+
+  .reto {
+    color: red;
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* popular tours */
+  .gambarna {
+    background-color: black;
+    background-size: auto;
+    position: relative;
+    /* height: 876px; */
+  }
+
+  .deskr,
+  .jdul-tour {
+    color: azure;
+  }
+
+  .ichi {
+    font-weight: bold;
+  }
+
+  .deskr1 {
+    margin-top: 25px;
+  }
+
+  .gambbar {
+    margin-top: 100px;
+  }
+
+  /*kesalahan dimulai disini, ini buat tampilan hp, kalo pc di line 304    */
+  .wp1-m {
+    height: 450px;
+    max-width: 300px;
+    width: 100%;
+    background-image: url(galleri/dnau.jpg);
+    background-size: cover;
+    /* float: left; */
+  }
+
+  .wp2-m {
+    height: 450px;
+    max-width: 300px;
+    width: 100%;
+    background-image: url(galleri/gnung.jpg);
+    background-size: cover;
+    /* margin-left: 25px;
+    float: right; */
+  }
+
+  .wp3-m {
+    height: 450px;
+    max-width: 300px;
+    width: 100%;
+    background-image: url(galleri/tbing.jpg);
+    background-size: cover;
+    /* float: right;
+    margin-top: 25px; */
+  }
+
+  .wp4-m {
+    height: 450px;
+    max-width: 300px;
+    width: 100%;
+    background-image: url(galleri/pic\ 6.jpg);
+    background-size: cover;
+    /* margin-top: 25px; */
+    /* float: left;
+    margin-left: 25px; */
+  }
+
+  /*  heup  */
+  .tour-color,
+  .p-color {
+    color: azure;
+  }
+
+  .tour-color {
+    font-weight: bold;
+  }
+
+  .tour-position-1,
+  .tour-position-2,
+  .tour-position-3,
+  .tour-position-4 {
+    padding-top: 350px;
+  }
+
+  .tstft:hover {
+    transform: scale(1.05);
+  }
+
+  .jumbotron-last {
+    background-image: url(galleri/last-photo.jpg);
+    background-size: cover;
+    height: 876px;
+    position: relative;
+  }
+
+  .jumbotron-last::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    margin-left: -17px;
+    bottom: 0;
+  }
+
+  h1.display-5.discovr-txt {
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+  }
+
+  .jumbo-end-txt {
+    color: azure !important;
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+
+  iframe {
+    width: 180px;
+    height: 100px;
+  }
+
+  .footer {
+    margin-top: 1px;
+  }
+
+  .lin:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(228, 12, 12);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -3px;
+    z-index: 100;
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .vid-1 {
+    float: left;
+  }
+
+  .vid-2 {
+    float: right;
+    position: relative;
+    top: -145px;
+  }
+}
+
+/* Desktop vers */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    border-bottom: 1px solid white;
+    width: 1116px;
+    margin: auto;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 23px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-brand {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(228, 12, 12);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  /* jumbotron */
+  .jumbotron-img {
+    margin-top: -75px;
+  }
+
+  .judulco {
+    padding-top: 250px;
+  }
+
+  .bcot {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .deskri {
+    width: 400px;
+    float: left;
+  }
+  .bcote {
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    float: right;
+  }
+
+  /* warna teks */
+  .navbar-brand,
+  .nav-link,
+  .bcot {
+    color: azure !important;
+  }
+
+  /* ingfo panel */
+  .ingfo-panel {
+    margin-top: -170px;
+    z-index: 1;
+  }
+
+  .wrna {
+    color: white;
+    font-size: 15px;
+    padding-left: 50px !important;
+  }
+
+  .reto {
+    color: red;
+    font-size: 40px;
+    float: left;
+  }
+
+  .lin {
+    padding-left: 10px;
+  }
+
+  .lin:hover {
+    color: white;
+  }
+
+  .lin:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(228, 12, 12);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -3px;
+    z-index: 100;
+  }
+
+  .gambarna {
+    background-color: black;
+    background-size: auto;
+    position: relative;
+    /* height: 876px; */
+  }
+
+  .deskr,
+  .jdul-tour {
+    color: azure;
+    margin: auto;
+  }
+
+  .ichi {
+    font-weight: bold;
+  }
+
+  .deskr1 {
+    margin-top: 25px;
+  }
+
+  .gambbar {
+    margin-top: 100px;
+  }
+
+  /*kalo yg ini buat pc    */
+  .wp1 {
+    height: 450px;
+    background-image: url(galleri/dnau.jpg);
+    background-size: cover;
+  }
+
+  .wp2 {
+    height: 450px;
+    background-image: url(galleri/gnung.jpg);
+    background-size: cover;
+    /* margin-left: 10px; */
+  }
+
+  .wp3 {
+    height: 450px;
+    background-image: url(galleri/tbing.jpg);
+    background-size: cover;
+    /* margin-left: 10px; */
+  }
+
+  .wp4 {
+    height: 450px;
+    background-image: url(galleri/pic\ 6.jpg);
+    background-size: cover;
+    /* margin-left: 10px; */
+  }
+
+  /*  heup  */
+  .tour-color,
+  .p-color {
+    color: azure;
+  }
+
+  .tour-color {
+    font-weight: bold;
+  }
+
+  .tour-position-1,
+  .tour-position-2,
+  .tour-position-3,
+  .tour-position-4 {
+    padding-top: 350px;
+  }
+
+  .tstft:hover {
+    transform: scale(1.1);
+  }
+
+  .jumbotron-last {
+    background-image: url(galleri/last-photo.jpg);
+    background-size: cover;
+    height: 876px;
+    position: relative;
+  }
+
+  .jumbotron-last::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    margin-left: -17px;
+    bottom: 0;
+  }
+
+  .jumbo-end-txt {
+    color: azure !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  iframe {
+    width: 360px;
+    height: 200px;
+  }
+
+  .footer .footer-2 .bi {
+    font-size: 25px;
+  }
+
+  h1.display-5.discovr-txt {
+    font-weight: bolder;
+    font-size: 75px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+  }
+
+  .footer {
+    margin-top: 150px;
+  }
+
+  .vid-1 {
+    float: none;
+  }
+
+  .vid-2 {
+    float: none;
+    position: relative;
+    top: 0;
+  }
+}
