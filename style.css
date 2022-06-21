@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   /* Navbar */
   .navbar {
     position: relative;
@@ -130,7 +130,7 @@
     height: 450px;
     max-width: 300px;
     width: 100%;
-    background-image: url(galleri/dnau.jpg);
+    background-image: url(galleri/dnau-2.jpg);
     background-size: cover;
     /* float: left; */
   }
@@ -139,7 +139,7 @@
     height: 450px;
     max-width: 300px;
     width: 100%;
-    background-image: url(galleri/gnung.jpg);
+    background-image: url(galleri/gnung-2.jpg);
     background-size: cover;
     /* margin-left: 25px;
     float: right; */
@@ -149,7 +149,7 @@
     height: 450px;
     max-width: 300px;
     width: 100%;
-    background-image: url(galleri/tbing.jpg);
+    background-image: url(galleri/tbing-2.jpg);
     background-size: cover;
     /* float: right;
     margin-top: 25px; */
@@ -159,7 +159,7 @@
     height: 450px;
     max-width: 300px;
     width: 100%;
-    background-image: url(galleri/pic\ 6.jpg);
+    background-image: url(galleri/pic\ 6-2.jpg);
     background-size: cover;
     /* margin-top: 25px; */
     /* float: left;
@@ -188,7 +188,7 @@
   }
 
   .jumbotron-last {
-    background-image: url(galleri/last-photo.jpg);
+    background-image: url(galleri/last-photo-2.jpg);
     background-size: cover;
     height: 876px;
     position: relative;
@@ -257,6 +257,29 @@
   }
 }
 
+@media (min-width: 700px) {
+  .vid-1 {
+    float: left;
+  }
+
+  .vid-2 {
+    float: right;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .vid-1 {
+    float: left;
+  }
+
+  .vid-2 {
+    float: right;
+    position: relative;
+    top: 0;
+  }
+}
 /* Desktop vers */
 @media (min-width: 992px) {
   /* Navbar */
@@ -384,27 +407,27 @@
   /*kalo yg ini buat pc    */
   .wp1 {
     height: 450px;
-    background-image: url(galleri/dnau.jpg);
+    background-image: url(galleri/dnau-2.jpg);
     background-size: cover;
   }
 
   .wp2 {
     height: 450px;
-    background-image: url(galleri/gnung.jpg);
+    background-image: url(galleri/gnung-2.jpg);
     background-size: cover;
     /* margin-left: 10px; */
   }
 
   .wp3 {
     height: 450px;
-    background-image: url(galleri/tbing.jpg);
+    background-image: url(galleri/tbing-2.jpg);
     background-size: cover;
     /* margin-left: 10px; */
   }
 
   .wp4 {
     height: 450px;
-    background-image: url(galleri/pic\ 6.jpg);
+    background-image: url(galleri/pic\ 6-2.jpg);
     background-size: cover;
     /* margin-left: 10px; */
   }
@@ -431,7 +454,7 @@
   }
 
   .jumbotron-last {
-    background-image: url(galleri/last-photo.jpg);
+    background-image: url(galleri/last-photo-2.jpg);
     background-size: cover;
     height: 876px;
     position: relative;
@@ -485,5 +508,12 @@
     float: none;
     position: relative;
     top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  iframe {
+    width: 360px;
+    height: 200px;
   }
 }
