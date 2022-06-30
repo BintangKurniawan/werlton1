@@ -10,251 +10,249 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 480px) {
-  /* Navbar */
-  .navbar {
-    position: relative;
-    z-index: 5;
-  }
-  .navbar-brand {
-    font-weight: bold;
-    font-size: 20px;
-  }
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 5;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-  .lgo {
-    color: red;
-  }
+.lgo {
+  color: red;
+}
 
-  /* Jumbotron */
-  .jumbotron-img {
-    background-image: url(galleri/bekroon.jpg);
-    background-size: cover;
-    height: 876px;
-    position: relative;
-  }
+/* Jumbotron */
+.jumbotron-img {
+  background-image: url(galleri/bekroon.jpg);
+  background-size: cover;
+  height: 876px;
+  position: relative;
+}
 
-  .jumbotron .container {
-    position: relative;
-    z-index: 1;
-  }
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
 
-  .jumbotron-img::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    position: absolute;
-    margin-left: -17px;
-    bottom: 0;
-  }
+.jumbotron-img::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  margin-left: -17px;
+  bottom: 0;
+}
 
-  /* travel time dan bwhnya */
-  .judulco {
-    font-weight: bolder;
-    font-size: 75px;
-    padding-top: 100px;
-    text-transform: uppercase;
-    color: azure;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-  }
-  .bcot {
-    color: azure !important;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-  }
+/* travel time dan bwhnya */
+.judulco {
+  font-weight: bolder;
+  font-size: 75px;
+  padding-top: 100px;
+  text-transform: uppercase;
+  color: azure;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.bcot {
+  color: azure !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
 
-  .bcote {
-    font-size: 60px;
-    font-weight: bold;
-    color: aliceblue;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-  }
+.bcote {
+  font-size: 60px;
+  font-weight: bold;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
 
-  /* ingfo panel */
-  .ingfo-panel {
-    margin-top: -265px;
-    z-index: 1;
-  }
+/* ingfo panel */
+.ingfo-panel {
+  margin-top: -265px;
+  z-index: 1;
+}
 
-  .wrna {
-    color: white;
-    font-size: 13px;
-  }
+.wrna {
+  color: white;
+  font-size: 13px;
+}
 
-  .lin {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
+.lin {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-  .box {
-    width: 350px;
-  }
+.box {
+  width: 350px;
+}
 
-  .reto {
-    color: red;
-    font-size: 40px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-  }
+.reto {
+  color: red;
+  font-size: 40px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
 
-  /* popular tours */
-  .gambarna {
-    background-color: black;
-    background-size: auto;
-    position: relative;
-    /* height: 876px; */
-  }
+/* popular tours */
+.gambarna {
+  background-color: black;
+  background-size: auto;
+  position: relative;
+  /* height: 876px; */
+}
 
-  .deskr,
-  .jdul-tour {
-    color: azure;
-  }
+.deskr,
+.jdul-tour {
+  color: azure;
+}
 
-  .ichi {
-    font-weight: bold;
-  }
+.ichi {
+  font-weight: bold;
+}
 
-  .deskr1 {
-    margin-top: 25px;
-  }
+.deskr1 {
+  margin-top: 25px;
+}
 
-  .gambbar {
-    margin-top: 100px;
-  }
+.gambbar {
+  margin-top: 100px;
+}
 
-  /*kesalahan dimulai disini, ini buat tampilan hp, kalo pc di line 304    */
-  .wp1-m {
-    height: 450px;
-    max-width: 300px;
-    width: 100%;
-    background-image: url(galleri/dnau-2.jpg);
-    background-size: cover;
-    /* float: left; */
-  }
+/*kesalahan dimulai disini, ini buat tampilan hp, kalo pc di line 304    */
+.wp1-m {
+  height: 450px;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(galleri/dnau-2.jpg);
+  background-size: cover;
+  /* float: left; */
+}
 
-  .wp2-m {
-    height: 450px;
-    max-width: 300px;
-    width: 100%;
-    background-image: url(galleri/gnung-2.jpg);
-    background-size: cover;
-    /* margin-left: 25px;
+.wp2-m {
+  height: 450px;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(galleri/gnung-2.jpg);
+  background-size: cover;
+  /* margin-left: 25px;
     float: right; */
-  }
+}
 
-  .wp3-m {
-    height: 450px;
-    max-width: 300px;
-    width: 100%;
-    background-image: url(galleri/tbing-2.jpg);
-    background-size: cover;
-    /* float: right;
+.wp3-m {
+  height: 450px;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(galleri/tbing-2.jpg);
+  background-size: cover;
+  /* float: right;
     margin-top: 25px; */
-  }
+}
 
-  .wp4-m {
-    height: 450px;
-    max-width: 300px;
-    width: 100%;
-    background-image: url(galleri/pic\ 6-2.jpg);
-    background-size: cover;
-    /* margin-top: 25px; */
-    /* float: left;
+.wp4-m {
+  height: 450px;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(galleri/pic\ 6-2.jpg);
+  background-size: cover;
+  /* margin-top: 25px; */
+  /* float: left;
     margin-left: 25px; */
-  }
+}
 
-  /*  heup  */
-  .tour-color,
-  .p-color {
-    color: azure;
-  }
+/*  heup  */
+.tour-color,
+.p-color {
+  color: azure;
+}
 
-  .tour-color {
-    font-weight: bold;
-  }
+.tour-color {
+  font-weight: bold;
+}
 
-  .tour-position-1,
-  .tour-position-2,
-  .tour-position-3,
-  .tour-position-4 {
-    padding-top: 350px;
-  }
+.tour-position-1,
+.tour-position-2,
+.tour-position-3,
+.tour-position-4 {
+  padding-top: 350px;
+}
 
-  .tstft:hover {
-    transform: scale(1.05);
-  }
+.tstft:hover {
+  transform: scale(1.05);
+}
 
-  .jumbotron-last {
-    background-image: url(galleri/last-photo-2.jpg);
-    background-size: cover;
-    height: 876px;
-    position: relative;
-  }
+.jumbotron-last {
+  background-image: url(galleri/last-photo-2.jpg);
+  background-size: cover;
+  height: 876px;
+  position: relative;
+}
 
-  .jumbotron-last::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    position: absolute;
-    margin-left: -17px;
-    bottom: 0;
-  }
+.jumbotron-last::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  margin-left: -17px;
+  bottom: 0;
+}
 
-  h1.display-5.discovr-txt {
-    font-weight: bolder;
-    font-size: 45px;
-    padding-top: 100px;
-    text-transform: uppercase;
-    color: azure;
-    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
-  }
+h1.display-5.discovr-txt {
+  font-weight: bolder;
+  font-size: 45px;
+  padding-top: 100px;
+  text-transform: uppercase;
+  color: azure;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+}
 
-  .jumbo-end-txt {
-    color: azure !important;
-    font-size: 10px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    text-align: center;
-  }
+.jumbo-end-txt {
+  color: azure !important;
+  font-size: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
 
-  iframe {
-    width: 180px;
-    height: 100px;
-  }
+iframe {
+  width: 180px;
+  height: 100px;
+}
 
-  .footer {
-    margin-top: 1px;
-  }
+.footer {
+  margin-top: 1px;
+}
 
-  .lin:hover::after {
-    content: "";
-    display: block;
-    border-bottom: 3px solid rgb(228, 12, 12);
-    width: 100%;
-    margin: auto;
-    padding-bottom: 5px;
-    margin-bottom: -3px;
-    z-index: 100;
-  }
+.lin:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgb(228, 12, 12);
+  width: 100%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -3px;
+  z-index: 100;
+}
 
-  .lin:hover {
-    color: white;
-  }
+.lin:hover {
+  color: white;
+}
 
-  .vid-1 {
-    float: left;
-  }
+.vid-1 {
+  float: left;
+}
 
-  .vid-2 {
-    float: right;
-    position: relative;
-    top: -145px;
-  }
+.vid-2 {
+  float: right;
+  position: relative;
+  top: -145px;
 }
 
 @media (min-width: 700px) {
@@ -511,7 +509,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   iframe {
     width: 360px;
     height: 200px;
